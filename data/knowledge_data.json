@@ -1,0 +1,48 @@
+{
+  "data_type": "dados_de_treinamento",
+  "content": {
+    "intencoes": {
+      "saudacao": {
+        "padroes": ["olá", "oi", "bom dia", "boa tarde", "e aí", "como vai", "tudo bem"],
+        "respostas": ["Olá! Como posso ajudar?", "Oi, tudo bem?", "Saudações! O que posso fazer por você?"]
+      },
+      "despedida": {
+        "padroes": ["tchau", "adeus", "até mais", "até logo", "fico por aqui"],
+        "respostas": ["Até logo!", "Tchau! Volte sempre.", "Cuide-se!"]
+      },
+      "agradecimento": {
+        "padroes": ["obrigado", "valeu", "muito obrigado", "agradeço", "brigadão"],
+        "respostas": ["Disponha!", "Por nada!", "Fico feliz em ajudar!", "Sempre à disposição!"]
+      },
+      "consulta_tempo": {
+        "padroes": ["qual a previsão do tempo", "vai chover hoje", "como está o tempo", "temperatura agora", "clima"],
+        "respostas": ["Por favor, me diga sua cidade para eu buscar o tempo.", "Informe o local para verificar a previsão do tempo."]
+      },
+      "consulta_hora": {
+        "padroes": ["que horas são", "horário atual", "me diga a hora", "tempo agora"],
+        "respostas": ["Posso informar a hora se você me disser seu fuso horário ou cidade."]
+      },
+      "consulta_nome": {
+        "padroes": ["qual seu nome", "quem é você", "seu nome"],
+        "respostas": ["Eu sou o Jarvis, seu assistente pessoal!", "Jarvis à sua disposição, em que posso ajudar?"]
+      },
+      "pedido_ajuda": {
+        "padroes": ["me ajuda", "você pode ajudar", "preciso de ajuda", "ajuda por favor"],
+        "respostas": ["Claro! Me diga com o que você precisa de ajuda.", "Estou aqui para ajudar. Pode falar o que precisa."]
+      },
+      "pedido_piada": {
+        "padroes": ["conte uma piada", "me faça rir", "piada engraçada", "diga algo engraçado"],
+        "respostas": ["Por que o livro de matemática se suicidou? Porque tinha muitos problemas.", "Eu contaria uma piada sobre UDP, mas você talvez não receba."]
+      },
+      "pergunta_geral": {
+        "padroes": ["quem é", "o que é", "como fazer", "explique", "me diga sobre"],
+        "respostas": ["Posso tentar encontrar essa informação para você.", "Vou verificar isso para você."]
+      }
+    },
+    "entidades": {
+      "localizacao": ["são paulo", "rio de janeiro", "belo horizonte", "porto alegre", "brasilia", "curitiba"],
+      "tempo": ["agora", "hoje", "amanhã", "esta semana", "próximo mês"],
+      "pessoa": ["jarvis", "assistente", "bot", "ia"]
+    }
+  }
+}
