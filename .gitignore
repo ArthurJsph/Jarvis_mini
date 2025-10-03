@@ -1,1 +1,102 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Ambiente virtual
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+*.out
+
+# Arquivos de configuração sensíveis
 .env
+config.local.py
+*.key
+*.pem
+
+# Machine Learning / IA
+models/*.pkl
+models/*.h5
+models/*.pt
+models/*.pth
+models/*.onnx
+models/*.joblib
+*.model
+experiments/
+checkpoints/
+wandb/
+
+# Cache de modelos pré-treinados
+.cache/
+.huggingface/
+.transformers_cache/
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Redis
+dump.rdb
+*.aof
+
+# Dados sensíveis ou grandes
+data/raw/
+data/processed/
+data/external/
+data/*.csv
+data/*.json.bak
+data/temp/
+data/cache/
+
+# Jupyter Notebooks (checkpoints)
+.ipynb_checkpoints/
+*.ipynb
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+
